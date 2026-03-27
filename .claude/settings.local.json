@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /d D:Projecttechnical_learn)",
+      "Bash(npx playwright:*)",
+      "Bash(npm install:*)",
+      "Bash(node test.js)",
+      "Bash(npm init:*)",
+      "Bash(node -c index.html)",
+      "Bash(node --check index.html)",
+      "Bash(python fix_quotes.py)",
+      "Bash(curl -sI \"https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap\")",
+      "Bash(node -e \":*)",
+      "Bash(curl -s -X POST \"https://api.deepseek.com/chat/completions\" -H \"Content-Type: application/json\" -H \"Authorization: Bearer sk-ed2dd52b882f415bb8a056ebe543d1c8\" -d '{\"\"\"\"model\"\"\"\":\"\"\"\"deepseek-chat\"\"\"\",\"\"\"\"messages\"\"\"\":[{\"\"\"\"role\"\"\"\":\"\"\"\"user\"\"\"\",\"\"\"\"content\"\"\"\":\"\"\"\"Say hello in one word\"\"\"\"}],\"\"\"\"max_tokens\"\"\"\":10}')",
+      "Bash(curl:*)",
+      "Bash(gh --version)",
+      "Bash(git remote:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
