@@ -1,0 +1,4 @@
+node_modules/
+.signore
+*.md
+.git/
